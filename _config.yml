@@ -80,8 +80,8 @@ theme: next
 deploy:
   type: git
   repo:
-    github: https://github.com/iyuwe6/iyuwe6.github.io.git
-    coding: https://git.dev.tencent.com/iyuwe/iyuwe.coding.me.git
+    github: https://gh_token@github.com/iyuwe6/iyuwe6.github.io.git
+    coding: https://iyuwe://${co_token}@git.dev.tencent.com/iyuwe/iyuwe.coding.me.git
   branch: master
 
 search:
