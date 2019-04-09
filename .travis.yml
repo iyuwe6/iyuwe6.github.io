@@ -20,7 +20,6 @@ install:
   - npm i -g yuque-hexo
   
 script:
-  - yuque-hexo clean
   - yuque-hexo sync
   - hexo clean
   - hexo generate
