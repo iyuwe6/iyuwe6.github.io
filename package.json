@@ -8,7 +8,7 @@
   "yuqueConfig": {
     "baseUrl": "https://www.yuque.com/api/v2",
     "login": "u164819",
-    "repo": "blog",
+    "repo": "zq4z0b",
     "mdNameFormat": "title",
     "postPath": "source/_posts/yuque",
 	"cachePath": "yuque.json",
