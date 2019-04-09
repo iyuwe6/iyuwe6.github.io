@@ -11,10 +11,6 @@
     "repo": "blog",
     "mdNameFormat": "title",
     "postPath": "source/_posts/yuque",
-    "cachePath": "yuque.json",
-    "adapter": "hexo",
-    "concurrency": 5,
-    "onlyPublished": false
   },
   "scripts": {
     "clean": "hexo clean",
