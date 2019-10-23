@@ -9,6 +9,8 @@
 # Useful if you want to comment some options from NexT `_config.yml` by `next.yml` without editing default config.
 override: false
 
+display_updated: true
+
 # Allow to cache content generation. Introduced in NexT v6.0.0.
 cache:
   enable: true
