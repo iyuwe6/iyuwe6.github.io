@@ -14,7 +14,7 @@
 	"cachePath": "yuque.json",
 	"adapter": "hexo",
 	"concurrency": 5,
-	"onlyPublished": false
+	"onlyPublished": true
   },
   "scripts": {
     "clean": "hexo clean",
