@@ -71,15 +71,6 @@
             {% set date_diff = date(post.date) != date(post.updated) %}
             {% set time_diff = time(post.date) != time(post.updated) %}
             {% set datetime_diff = date_diff or time_diff %}
-            
-            {% if post.updated and post.updated > post.date%}
-              <span class="post-updated">
-                &nbsp; | &nbsp; {{ __('post.updated') }}
-                <time itemprop="dateUpdated" datetime="{{ moment(post.updated).format() }}" content="{{ date(post.updated, config.date_format) }}">
-                  {{ date(post.updated, config.date_format) }}
-                </time>
-              </span>
-            {% endif %}
 
             {% if theme.post_meta.created_at %}
               <span class="post-meta-item-icon">
@@ -120,7 +111,16 @@
               {% endif %}
             {% endif %}
           </span>
-
+          
+          {% if post.updated and post.updated > post.date%}
+            <span class="post-updated">
+              &nbsp; | &nbsp; {{ __('post.updated') }}
+              <time itemprop="dateUpdated" datetime="{{ moment(post.updated).format() }}" content="{{ date(post.updated, config.date_format) }}">
+                {{ date(post.updated, config.date_format) }}
+              </time>
+            </span>
+          {% endif %}
+          
           {% if post.categories and post.categories.length and theme.post_meta.categories %}
             <span class="post-category">
             {% if theme.post_meta.created_at or theme.post_meta.updated_at %}
