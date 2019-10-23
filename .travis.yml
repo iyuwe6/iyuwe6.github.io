@@ -22,7 +22,7 @@ install:
 script:
   - yuque-hexo sync
   - hexo clean
-  - hexo generate --watch
+  - hexo generate
 
 after_script:
   - cd ./public
