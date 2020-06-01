@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xeniogd.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-06-01T08:09:21.780Z</updated>
+    <title>xeniogd</title>
+    <updated>2020-06-01T08:44:57.453Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xeniogd.github.io"/>
     <link rel="self" href="https://xeniogd.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://xeniogd.github.io/images/avatar.png</logo>
     <icon>https://xeniogd.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, xeniogd</rights>
     <entry>
         <title type="html"><![CDATA[二分查找详解]]></title>
         <id>https://xeniogd.github.io/post/er-fen-cha-zhao-xiang-jie/</id>
